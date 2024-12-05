@@ -38,11 +38,11 @@ button {
 
 /* #region header */
 .header-page {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-page .container {
   justify-content: space-between;
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
 }
 .nav-page {
   display: flex;
@@ -132,9 +132,9 @@ button {
 .section-one {
   background-color: #2e2f42;
   margin-bottom: 112px;
+  padding: 188px 0;
 }
 .section-one .container {
-  padding: 188px 0;
 }
 .title-section-one {
   font-weight: 700;
