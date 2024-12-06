@@ -34,7 +34,7 @@ ol {
 button {
   cursor: pointer;
 }
-.ing {
+img {
   display: block;
 }
 /* #endregion */
@@ -320,6 +320,7 @@ button {
 /* #region footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-link {
 }
@@ -329,6 +330,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .logo-footer {
   font-weight: 700;
@@ -338,6 +340,8 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-span {
   font-weight: 700;
