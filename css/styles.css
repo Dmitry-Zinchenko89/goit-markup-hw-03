@@ -182,6 +182,14 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.title-section-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 .section-two {
   background-color: #ffffff;
   padding: 120px 0;
@@ -190,9 +198,9 @@ button {
   display: flex;
 }
 .item-section-two {
-  margin-right: 24px;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .item-section-two:last-child {
   margin-right: 0;
