@@ -224,6 +224,7 @@ button {
 /* #region section-three */
 .section-three {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .title-section-three {
   font-weight: 700;
@@ -233,9 +234,22 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.list-section-three {
+  display: flex;
 }
 .item-section-three {
-  background-color: #ffffff;
+  gap: 24px;
+  margin-right: 24px;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.item-section-three:last-child {
+  margin-right: 0;
+}
+.info-subject {
+  padding: 32px 0;
 }
 .subject {
   font-weight: 500;
@@ -243,6 +257,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .description {
   font-weight: 400;
@@ -250,6 +266,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 /* #endregion */
 /* #region section-four */
