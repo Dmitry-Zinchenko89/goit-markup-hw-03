@@ -134,7 +134,7 @@ img {
 /* #region section-one */
 .section-one {
   background-color: #2e2f42;
-  margin-bottom: 112px;
+
   padding: 188px 0;
 }
 .section-one .container {
@@ -148,6 +148,7 @@ img {
   color: #ffffff;
   max-width: 496px;
   align-content: center;
+  margin-right: auto;
 
   margin-bottom: 48px;
 }
@@ -159,7 +160,8 @@ img {
   color: #ffffff;
   background-color: #4d5ae5;
   border-radius: 4px;
-  margin-bottom: 180px;
+  margin-left: auto;
+
   min-width: 169px;
   height: 56px;
   align-content: center;
@@ -234,7 +236,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
+
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
@@ -247,6 +249,7 @@ img {
   margin-right: 24px;
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 .item-section-three:last-child {
   margin-right: 0;
@@ -282,7 +285,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
+
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
