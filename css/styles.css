@@ -236,6 +236,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
 
   text-transform: capitalize;
   color: #2e2f42;
@@ -263,7 +264,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
+
   margin-bottom: 8px;
 }
 .description {
@@ -272,7 +273,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 /* #endregion */
 /* #region section-four */
@@ -285,6 +285,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
 
   text-transform: capitalize;
   color: #2e2f42;
